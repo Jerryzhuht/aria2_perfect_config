@@ -17,6 +17,25 @@
 
 > **[Aria2 一键安装管理脚本](https://p3terx.com/archives/aria2-oneclick-installation-management-script.html)使用本项目作为配置方案，推荐使用。**
 
+## 手动更新
+### 打开终端进入 aria2 配置文件夹
+```cd /root/.aria2```
+
+### 下载 `delete.sh`	和 `autoupload.sh`
+```
+wget -N https://raw.githubusercontent.com/P3TERX/aria2_perfect_config/master/delete.sh
+wget -N https://raw.githubusercontent.com/P3TERX/aria2_perfect_config/master/autoupload.sh
+```
+
+### 给予脚本执行命令的权限：
+```
+chmod +x /root/.aria2/delete.sh
+chmod +x /root/.aria2/autoupload.sh
+```
+### 重启Aria2
+
+```service aria2 restart```
+
 ## 文件说明
 `aria2.conf` 配置文件
 
