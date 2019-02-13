@@ -25,8 +25,8 @@ cd /root/.aria2
 
 ### 下载 `delete.sh`	和 `autoupload.sh`
 ```
-wget -N https://raw.githubusercontent.com/P3TERX/aria2_perfect_config/master/delete.sh
-wget -N https://raw.githubusercontent.com/P3TERX/aria2_perfect_config/master/autoupload.sh
+wget -N https://raw.githubusercontent.com/Jerryzhuht/aria2_perfect_config/master/delete.sh
+wget -N https://raw.githubusercontent.com/Jerryzhuht/aria2_perfect_config/master/autoupload.sh
 ```
 
 ### 给予脚本执行命令的权限：
