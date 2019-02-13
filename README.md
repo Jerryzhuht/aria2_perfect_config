@@ -19,7 +19,9 @@
 
 ## 手动更新
 ### 打开终端进入 aria2 配置文件夹
-```cd /root/.aria2```
+```
+cd /root/.aria2
+```
 
 ### 下载 `delete.sh`	和 `autoupload.sh`
 ```
@@ -34,7 +36,9 @@ chmod +x /root/.aria2/autoupload.sh
 ```
 ### 重启Aria2
 
-```service aria2 restart```
+```
+service aria2 restart
+```
 
 ## 文件说明
 `aria2.conf` 配置文件
