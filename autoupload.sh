@@ -1,8 +1,5 @@
 #!/bin/bash
 #Description: Aria2 download completes calling Rclone upload
-#Version: 1.3
-#Author: P3TERX
-#Blog: https://p3terx.com
 
 downloadpath='/root/Download' #Aria2下载目录
 name='HKBU' #配置Rclone时填写的name
