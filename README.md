@@ -23,7 +23,7 @@
 cd /root/.aria2
 ```
 
-### 下载 `delete.sh`	和 `autoupload.sh`
+### 下载 `delete.sh`	和 `autoupload.sh`, 不加`-N`以覆盖原来的文件
 ```
 wget -N https://raw.githubusercontent.com/Jerryzhuht/aria2_perfect_config/master/delete.sh
 wget -N https://raw.githubusercontent.com/Jerryzhuht/aria2_perfect_config/master/autoupload.sh
